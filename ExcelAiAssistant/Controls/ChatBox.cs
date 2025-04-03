@@ -222,7 +222,7 @@ namespace ExcelAiAssistant.Controls
 
         private void tsbNewChat_Click(object sender, EventArgs e)
         {
-            if(this._conversation != null && this._conversation.Spans.Count > 2)
+            if(this._conversation != null && this._conversation.Spans != null && this._conversation.Spans.Count > 0)
             {
                 this.SaveAndCleanConversation();
             }
