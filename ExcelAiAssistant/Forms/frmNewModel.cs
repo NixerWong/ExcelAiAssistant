@@ -37,6 +37,13 @@ namespace ExcelAiAssistant.Forms
             this.btnSave.Text = "  " + Strings.Global_Operation_Save;
 
             //this.Font = ThisAddIn.GlobalFont;
+            this.lbModelUrl.Font = ThisAddIn.GlobalFont;
+            this.lbModelName.Font = ThisAddIn.GlobalFont;
+            this.lbAppKey.Font = ThisAddIn.GlobalFont;
+            this.lbApiType.Font = ThisAddIn.GlobalFont;
+            this.cbEnabled.Font = ThisAddIn.GlobalFont;
+            this.lbSysPrompt.Font = ThisAddIn.GlobalFont;
+            this.btnSave.Font = ThisAddIn.GlobalFont;
             this.txtAppkey.Font = ThisAddIn.GlobalFont;
             this.txtBaseUrl.Font = ThisAddIn.GlobalFont;
             this.txtModelName.Font = ThisAddIn.GlobalFont;
